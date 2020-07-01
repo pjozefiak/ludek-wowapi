@@ -1,0 +1,4 @@
+oauthlib
+requests-oauthlib
+requests
+pyyaml
