@@ -4,3 +4,4 @@
 /test_dumper.py
 /venv/
 /.idea/
+**/__pycache__/
