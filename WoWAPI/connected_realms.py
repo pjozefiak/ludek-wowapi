@@ -20,4 +20,5 @@ class ConnectedRealms:
         return connected_realms_ids
 
     def get_connected_realm(self, realm_id):
-        return connector.Connect(self.region, '/data/wow/connected-realm/{}?locale=en_GB'.format(realm_id), self.token).get_data()
+        return connector.Connect(self.region, '/data/wow/connected-realm/{}?locale=en_GB'.format(realm_id),
+                                 self.token).get_data()
