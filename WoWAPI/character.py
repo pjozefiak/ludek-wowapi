@@ -8,3 +8,4 @@ class Character:
         self.name = name
 
         def get_character_profile(self):
+            return connector.Connect(self.region, '/profile/wow/character/{}/{}?locale=en_GB'.format(self.realm, self.name), self.token).get_data()
