@@ -1,6 +1,14 @@
 # Change / Commit Log
 This not gonna be maintained in any specific shape or form yet.
 
+## 0.0.3 (30.09.2020)
+**New**:
+- character class
+- gear parser
+
+**Refractor:**
+- connector class
+
 ## 0.0.2 (01.07.2020)
 **New:**
 - base config file
