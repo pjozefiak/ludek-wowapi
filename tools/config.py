@@ -9,4 +9,4 @@ class Config:
         config = configparser.ConfigParser()
         config.read(self.config_file)
         return {'client': config['Credentials']['API_CLIENT'], 'secret': config['Credentials']['API_SECRET'],
-                'region': config['Settings']['BASE_REGION'], 'locale': config['Settings']['BASE_REGION']}
+                'region': config['Settings']['BASE_REGION'], 'locale': config['Settings']['BASE_LOCALE']}

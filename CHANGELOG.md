@@ -1,8 +1,18 @@
 # Change / Commit Log
 This not gonna be maintained in any specific shape or form yet.
 
+## 0.0.4 (08.11.2020)
+**New:**
+- functional test script
+- locale inclusion
+- mock data for drop class
+
+**Todo bugs:**
+- default values on character class dict
+
+
 ## 0.0.3 (30.09.2020)
-**New**:
+**New:**
 - character class
 - gear parser
 

@@ -2,8 +2,8 @@ from WoWAPI import realms
 import yaml
 
 
-def dump_realms(region, token):
-    realms_data = realms.Realms(region, token).get_realms()
+def dump_realms(region, token, namespace, locale):
+    realms_data = realms.Realms(region, token, namespace, locale).get_realms()
 
     realms_dict = {
         'realms': {}

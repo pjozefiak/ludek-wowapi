@@ -1,5 +1,6 @@
 import yaml
 
+
 def get_connected_by_slug(slug):
     with open('data/connected_realms.yaml', 'r', encoding="utf-8") as realm_file:
         connected_data = yaml.load(realm_file, Loader=yaml.FullLoader)
@@ -16,4 +17,3 @@ def parse_items(items):
         equipped_items[item['slot']['name'].replace(' ', '_')]['name'] = item['name']
         equipped_items[item['slot']['name'].replace(' ', '_')]['ilvl'] = item['level']['value']
     return equipped_items
-

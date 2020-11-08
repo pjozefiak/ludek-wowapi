@@ -9,13 +9,13 @@ token = token.Token(settings['client'], settings['secret'], settings['region']).
 
 def client_init():
     print('Dumping realms...')
-    dump_realms.dump_realms(settings['region'], token)
+    dump_realms.dump_realms(settings['region'], token, 'dynamic-eu', settings['locale'])
     print('Dumping realms - completed')
     print('---')
     print('Dumping connected realms')
-    dump_connected_realms.dump_connected_realms(settings['region'], token)
+    dump_connected_realms.dump_connected_realms(settings['region'], token, 'dynamic-eu',
+                                                settings['locale'])
     print('Dumping connected realms - completed')
-
 
 
 print('Ludek WoW-API Client - client startup script')
