@@ -12,4 +12,4 @@ class Instances:
 
     def get_instances(self):
         return connector.Connect(self.region, '/data/wow/journal-expansion/{}'.format(self.expansion_id), self.token,
-                                 self.namespace,self.locale).get_data()
+                                 self.namespace, self.locale).get_data()

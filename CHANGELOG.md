@@ -1,6 +1,10 @@
 # Change / Commit Log
 This not gonna be maintained in any specific shape or form yet.
 
+## 0.0.5 (19.01.2021)
+**New:**
+- boss encounter class
+
 ## 0.0.4 (08.11.2020)
 **New:**
 - functional test script

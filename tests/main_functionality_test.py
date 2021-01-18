@@ -1,4 +1,5 @@
-from WoWAPI import character, connected_realms, connector, helpers, realms, expansions, instances, token
+from WoWAPI import character, connected_realms, connector, helpers, realms, expansions, instances, \
+    instances_encounters, token
 from tools import config
 
 settings = config.Config('../data/config.ini').get_config()
@@ -11,6 +12,7 @@ static_namespace = 'static-{}'.format(region)
 profile_namespace = 'profile-{}'.format(region)
 char_name = 'andeeria'
 realm_name = 'argent-dawn'
+instance_id = 1190
 
 # Token Test
 print('Testing token')
@@ -42,3 +44,8 @@ print('Get expansions index: {}\n'.format(expack.get_expansions()))
 print('Testing Current Expansions Instances')
 instance = instances.Instances(region, token, static_namespace, locale, expansion)
 print('Get current expansions instances: {}\n'.format(instance.get_instances()))
+
+# Instances Encounter Test (Castle Nathria(
+print('Testing Current Expansions Instances')
+instance = instances_encounters.Encounters(region, token, static_namespace, locale, instance_id)
+print('Get encounters for Castle Nathria: {}\n'.format(instance.get_encounters()))
