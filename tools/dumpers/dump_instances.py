@@ -27,4 +27,3 @@ def dump_instances(region, token, namespace, locale):
 
         with open('data/instances.yaml', 'w', encoding="utf-8") as instances_file:
             yaml.dump(instances_dict, instances_file, allow_unicode=True)
-1

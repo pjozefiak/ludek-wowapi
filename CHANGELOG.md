@@ -5,6 +5,9 @@ This not gonna be maintained in any specific shape or form yet.
 **New:**
 - boss encounter class
 
+**Bugfixes:**
+- typo on instances dumper
+
 ## 0.0.4 (08.11.2020)
 **New:**
 - functional test script
