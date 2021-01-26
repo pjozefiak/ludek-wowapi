@@ -1,6 +1,6 @@
 from tools import config
 from WoWAPI import token
-from tools.dumpers import dump_realms, dump_connected_realms, dump_expansions, dump_instances
+from tools.dumpers import dump_realms, dump_connected_realms, dump_expansions, dump_instances, dump_encounters
 
 
 settings = config.Config('data/config.ini').get_config()
@@ -32,6 +32,11 @@ def client_init():
     print('Dumping instances')
     dump_instances.dump_instances(region, token, static_namespace, locale)
     print('Dumping instances - completed')
+    print('---')
+
+    print('Dumping encounters')
+    dump_encounters.dump_encounters(region, token, static_namespace, locale)
+    print('Dumping encounters - completed')
     print('---')
 
 
