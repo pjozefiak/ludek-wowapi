@@ -1,9 +1,19 @@
 # Change / Commit Log
 This not gonna be maintained in any specific shape or form yet.
 
+# 0.0.6 (26.01.2021)
+**New:**
+- boss encounters dumper
+
+**Todo bugs:**
+- dir creation for expansions
+
 ## 0.0.5 (19.01.2021)
 **New:**
 - boss encounter class
+
+**Bugfixes:**
+- typo on instances dumper
 
 ## 0.0.4 (08.11.2020)
 **New:**

@@ -1,5 +1,4 @@
-/data/connected_realms.yaml
-/data/realms.yaml
+/data/*
 /main.py
 /test_dumper.py
 /venv/

@@ -1,4 +1,4 @@
-#Ludek WoW-API Client
+# WoW API Client (Ludek)
 
 From time to time, when I need to process some bigger amount of data for my favorite MMORPG I tend to write some small scripts to be used with pseudo-client framework for WoW API which I made couple of years ago.
 

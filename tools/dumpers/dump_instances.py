@@ -25,6 +25,5 @@ def dump_instances(region, token, namespace, locale):
 
         instances_dict['instances'][expansion] = expansion_dict
 
-        with open('data/instances.yaml', 'w', encoding="utf-8") as instances_file:
+        with open('data/instances.yaml', 'w', encoding='utf-8') as instances_file:
             yaml.dump(instances_dict, instances_file, allow_unicode=True)
-1
